@@ -1,0 +1,19 @@
+$fondo: rgb(97, 179, 165);
+$texto: rgb(255, 254, 205);
+
+header {
+    text-align: center;
+    color: $texto;
+    padding: 30px;
+
+    img {
+        width: 150px;
+        border: 4px solid $fondo;
+
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+    
+
+}
